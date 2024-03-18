@@ -1,0 +1,116 @@
+.form{
+    margin: 0;
+    background-color: var(--block-background);
+    padding: 40px 10px;
+}
+.form__comment{
+    background: #AAAAAA1A;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.015em;
+text-align: left;
+width: 300px;
+height: 118px;
+top: 40px;
+left: 10px;
+padding: 20px 101px 81px 20px;
+border: 0;
+color: white;
+}
+.form__comment::placeholder{
+    color: white;
+}
+.socal__media{
+    width: 27px;
+    height: 27px;
+}
+
+.form__socal__media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.form__text{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.01em;
+text-align: left;
+margin: 40px 0 20px 0;
+}
+.form__name{
+    background: #AAAAAA1A;
+    width: 300px;
+height: 50px;
+top: 318px;
+left: 10px;
+padding: 16px 240px 17px 20px;
+border: 0;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+.form__name::placeholder{
+    color: white;
+}
+
+.comments{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 3fr;
+}
+.comments__avatar{
+    width: 40px;
+    height: 40px;
+}
+.comments__right{
+    margin: 0 10px;
+}
+.name{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.01em;
+text-align: left;
+}
+.time{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: -0.01em;
+text-align: left;
+color: #FFFFFF80;
+}
+.comments__text{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.01em;
+text-align: left;
+margin: 20px 0;
+}
+.comments__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.like{
+    height: 16px;
+    margin: 4px 0;
+}
+.answer{
+    height: 24px;
+}
