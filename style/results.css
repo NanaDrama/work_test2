@@ -20,7 +20,7 @@
     line-height: 15px;
     letter-spacing: 0.01em;
     text-align: left;
-    width: 276px;
+    width: 86%;
     height: 80px;
     top: 585px;
     left: 10px;
@@ -35,8 +35,27 @@
     font-weight: 500;
 }
 
-.checkmark{
+.checkmark1,
+.checkmark2,
+.checkmark3,
+.checkmark4{
     width: 50px;
     height: 50px;
-    margin: -30px 10px 0 240px;
+    
+}
+.checkmark1{
+    margin: 0 10px 0 95%;
+    transform: translateY(-60%);
+}
+.checkmark2{
+        margin: 0 10px 0 95%;
+        transform: translateY(-90%);
+}
+.checkmark3{
+    margin: 0 10px 0 95%;
+    transform: translateY(-95%);
+}
+.checkmark4{
+    margin: 0 10px 0 95%;
+    transform: translateY(-125%);
 }
