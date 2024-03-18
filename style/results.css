@@ -1,6 +1,7 @@
-.results{
+.results {
     margin: 40px 0;
 }
+
 .results__title {
     font-family: Montserrat;
     font-size: 20px;
@@ -9,10 +10,12 @@
     letter-spacing: 0em;
     text-align: center;
 }
-.results__items{
+
+.results__items {
     display: flex;
     flex-direction: column;
 }
+
 .results__items__text {
     font-family: Montserrat;
     font-size: 12px;
@@ -28,7 +31,8 @@
     margin: 10px;
     padding: 5%;
 }
-.results__text{
+
+.results__text {
     margin: 0;
     font-family: Montserrat;
     font-size: 12px;
@@ -38,24 +42,28 @@
 .checkmark1,
 .checkmark2,
 .checkmark3,
-.checkmark4{
+.checkmark4 {
     width: 50px;
     height: 50px;
-    
+
 }
-.checkmark1{
+
+.checkmark1 {
     margin: 0 10px 0 95%;
     transform: translateY(-60%);
 }
-.checkmark2{
-        margin: 0 10px 0 95%;
-        transform: translateY(-90%);
+
+.checkmark2 {
+    margin: 0 10px 0 95%;
+    transform: translateY(-90%);
 }
-.checkmark3{
+
+.checkmark3 {
     margin: 0 10px 0 95%;
     transform: translateY(-95%);
 }
-.checkmark4{
+
+.checkmark4 {
     margin: 0 10px 0 95%;
     transform: translateY(-125%);
 }

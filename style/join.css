@@ -8,7 +8,8 @@
 
 .join {
     margin: 10px 10px;
-    background-color: var(--block-background);
+    background-image: url(../img/alex.svg);
+    background-size: cover;
     padding: 15px 10px;
 }
 
@@ -27,6 +28,7 @@
     text-align: left;
     color: var(--button-color);
     margin: 5px 0;
+    
 }
 
 .join__text {
@@ -34,12 +36,11 @@
     font-size: 12px;
     font-weight: 600;
     text-align: left;
-
 }
 
 .join__propose {
     font-family: Montserrat;
-    font-display:inherit;
+    font-display: inherit;
     font-size: 10px;
     font-weight: 600;
     line-height: 12px;
@@ -47,7 +48,8 @@
     width: 238px;
     box-shadow: 4px 4px 30px 1px #5600E1B2;
     border: 1px solid #5600E1;
-    margin: 30px 0;
+    background-color: var(--block-background);
+    margin: 140px 0 30px 0;
     padding: 10px 0;
 }
 
@@ -62,4 +64,16 @@
     font-weight: 600;
     line-height: 17px;
     background-color: #5600E1;
+}
+@media (min-width: 380px) {
+    .join {
+        background-image: url(../img/alex2.svg);
+        background-size: cover;
+    }
+}
+@media (min-width: 460px) {
+    .join {
+        background-image: url(../img/alex3.svg);
+        background-size: cover;
+    }
 }
