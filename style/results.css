@@ -1,0 +1,42 @@
+.results{
+    margin: 40px 0;
+}
+.results__title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.results__items{
+    display: flex;
+    flex-direction: column;
+}
+.results__items__text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 276px;
+    height: 80px;
+    top: 585px;
+    left: 10px;
+    background-color: var(--block-background);
+    margin: 10px;
+    padding: 5%;
+}
+.results__text{
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.checkmark{
+    width: 50px;
+    height: 50px;
+    margin: -30px 10px 0 240px;
+}

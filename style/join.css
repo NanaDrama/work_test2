@@ -1,0 +1,65 @@
+.question {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px;
+}
+
+.join {
+    margin: 10px 10px;
+    background-color: var(--block-background);
+    padding: 15px 10px;
+}
+
+.join__title {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.join__name {
+    font-family: Bebas Neue;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--button-color);
+    margin: 5px 0;
+}
+
+.join__text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.join__propose {
+    font-family: Montserrat;
+    font-display:inherit;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: center;
+    width: 238px;
+    box-shadow: 4px 4px 30px 1px #5600E1B2;
+    border: 1px solid #5600E1;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+
+.join__button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 17px 13px 16px 13px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    background-color: #5600E1;
+}
