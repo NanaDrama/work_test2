@@ -8,9 +8,11 @@
 
 .join {
     margin: 10px 10px;
+    padding: 15px 10px;  
     background-image: url(../img/alex.svg);
-    background-size: cover;
-    padding: 15px 10px;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 .join__title {
@@ -28,7 +30,7 @@
     text-align: left;
     color: var(--button-color);
     margin: 5px 0;
-    
+
 }
 
 .join__text {
@@ -65,15 +67,106 @@
     line-height: 17px;
     background-color: #5600E1;
 }
-@media (min-width: 380px) {
+
+
+
+@media (min-width: 650px) {
     .join {
+        text-align: center;
+        padding: 50px 0;
         background-image: url(../img/alex2.svg);
-        background-size: cover;
+    }
+
+    .join__title {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .join__name {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .join__text {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .join__propose {
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+
+    .join__button {
+        display: inline-block;
+        background-color: #5601E1;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 15px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        max-width: 300px;
+    }
+
+    .join__button:hover {
+        background-color: #ffffff;
+        color: #5601E1;
     }
 }
-@media (min-width: 460px) {
+@media (min-width: 910px){
     .join {
-        background-image: url(../img/alex3.svg);
-        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--block-background);
+        background-image: none;
+        padding: 20px;
+        border-radius: 0;
+        max-height: 205px;
+    }
+    
+    .join__left {
+        flex: 1;
+        align-self: flex-start; /* Додано вирівнювання по верхньому краю */
+    }
+    
+    .join__right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex: 1;
+    }
+    
+    .join__propose {
+        border: 0;
+        box-shadow: none;
+        font-weight: bold;
+        margin: 5px 0; /* Змінено відстань між join__propose та join__button */
+    }
+    .join__propose2{
+        margin: -40% 5px 0 5px ;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .join__button {
+        background-color: #5601E1;
+        color: white;
+        width: 230px;
+        margin: -80px 0 0 0;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 0;
+    }
+    
+    .join__button:hover {
+        background-color: #3a018f;
     }
 }
