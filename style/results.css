@@ -67,3 +67,8 @@
     margin: 0 10px 0 95%;
     transform: translateY(-125%);
 }
+
+.video{
+    margin: 5%;
+    align-items: center;
+}
